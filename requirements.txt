@@ -3,4 +3,3 @@ pandas
 imblearn
 streamlit
 numpy
-pickle
