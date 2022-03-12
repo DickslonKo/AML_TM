@@ -6,10 +6,10 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y git
 
 #Copy Requirements.txt file into app directory
-COPY requirements.txt app/requirements.txt
+COPY requirements.txt /requirements.txt
 
 #install all requirements in requirements.txt
-RUN pip install -r app/requirements.txt
+RUN pip install -r /requirements.txt
 
 #Copy all files in current directory into app directory
 COPY . /
