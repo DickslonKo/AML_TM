@@ -1,4 +1,4 @@
-service: AML_TM
+service: aml_tm
 runtime: custom
 env: flex
 manual_scaling: 
