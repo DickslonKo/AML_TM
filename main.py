@@ -6,8 +6,6 @@ import pickle
 
 # Load the trained model
 enc = pickle.load(open("enc.pickle", "rb"))
-smote = pickle.load(open("smote.pickle", "rb"))
-LR = pickle.load(open('LR.pickle','rb'))
 pipeline = pickle.load(open("pipeline.pickle", "rb"))
 
 def main():
